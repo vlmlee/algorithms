@@ -1,8 +1,4 @@
 """
-    selection_sort.py
-
-    Implementation of selection sort on a list and returns a sorted list.
-
     Selection Sort Overview:
     ------------------------
     Uses in-place comparision to sort the list

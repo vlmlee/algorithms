@@ -1,8 +1,4 @@
 """
-    bubble_sort.py
-
-    Implementation of bubble sort on a list and returns a sorted list.
-
     Bubble Sort Overview:
     ---------------------
     A naive sorting that compares and swaps adjacent elements
@@ -19,6 +15,10 @@
 
 
 def sort(seq):
+    """
+    Test Doc String
+
+    """
     L = len(seq)
     for _ in range(L):
         for n in range(1, L):
