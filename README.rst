@@ -7,82 +7,19 @@ Algorithms
 .. image:: http://codecov.io/github/nryoung/algorithms/coverage.svg?branch=master
     :target: http://codecov.io/github/nryoung/algorithms?branch=master
 
-This is an attempt to build a cohesive module of algorithms in Python.
+Algorithms is a library of algorithms and data structures implemented in Python.
 
-The purpose of this repo is to be a learning tool for myself and others.
+The main purpose of this library is to be an educational tool. You probably
+shouldn't use these in production, instead, opting for the optimized versions of
+these algorithms that can be found else where.
 
-I used psuedo code from various sources and I have listed them as references in the source code of each algorithm.
+You should totally check out the docs for implementation details, complexities
+and further info.
 
-Algorithms implemented so far:
-------------------------------
+Usage
+-----
 
-**Data Structures:**
-
-- Queue
-- Stack
-- Disjoint Set
-- Single Linked List
-- Undirected Graph
-- Digraph
-
-**Sorting:**
-
-- Bogo Sort
-- Bubble Sort
-- Cocktail Sort
-- Comb Sort
-- Heap Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-- In Place Quick Sort
-- Selection Sort
-- Shell Sort
-- Gnome Sort
-
-**Searching:**
-
-- Binary Search
-- Boyer-Moore-Horspool
-- Knuth-Morris-Pratt
-- Rabin-Karp
-- Depth First Search (Recursive)
-
-**Shuffling:**
-
-- Knuth/Fisher-Yates Shuffle
-
-**Math:**
-
-- Extended GCD
-- Standard Normal Probability Density Function
-- Cumulative Density Function (Approximation; 16 digit precision for 300 iter.)
-- Sieve of Eratosthenes
-
-**Dynamic Programming:**
-
-- Longest Common Subsequence
-
-**Random:**
-
-- Mersenne Twister
-
-
-Installation:
--------------
-
-If you want to use the algorithms directly, simply
-
-::
-
-    $ pip install algorithms
-
-If you want to examine the algorithms source, then you should clone this repo.
-
-Usage:
-------
-
-Once installed you can simply do the following in your program:
+If you want to use the algorithms in your code it is as simple as:
 
 ::
 
@@ -90,8 +27,21 @@ Once installed you can simply do the following in your program:
 
     my_list = bubble_sort.sort(my_list)
 
+Features
+--------
 
-All prequisites for the algorithms are listed in the source code for each algorithm.
+- Pseudo code, algorithm complexities and futher info with each algorithm.
+- Test coverage for each algorithm and data structure.
+- Super sweet documentation.
+
+Installation:
+-------------
+
+Installation is as easy as:
+
+::
+
+    $ pip install algorithms
 
 
 Tests:
@@ -107,16 +57,5 @@ Pytest is used as the main test runner and all Unit Tests can be run with:
 Contributing:
 -------------
 
-If there is an algorithm or data structure that you do not see, but would like to add please feel free to do a pull request. I only ask two things:
-
-1. For each algorithm and data structure you implement please have corresponding unit tests to prove correctness.
-2. Please make sure that your module follows similar style guidelines that are laid out in the other modules.
-
-I want to personally thank everybody that has contributed so far and your names will be added to `AUTHORS.rst`.
-
-
-TODO:
------
-See `TODO.rst`_.
-
-.. _`TODO.rst`: TODO.rst
+Contributions are always welcome. Check out the contributing guidelines to get
+started.
