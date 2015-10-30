@@ -5,3 +5,4 @@ Algorithms
    :maxdepth: 2
    
    sorting
+   shuffling
