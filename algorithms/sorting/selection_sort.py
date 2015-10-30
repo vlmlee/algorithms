@@ -1,7 +1,7 @@
 """
-    Selection Sort Overview:
-    ------------------------
-    Uses in-place comparision to sort the list
+    Selection Sort
+    --------------
+    A sorting that uses in-place comparison.
 
     Time Complexity:  O(n**2)
 
@@ -15,7 +15,13 @@
 
 
 def sort(seq):
+    """
+    Takes a list of integers and sorts them in ascending order. This sorted
+    list is then returned.
 
+    :param seq: A list of integers
+    :rtype: A list of sorted integers
+    """
     for i in range(0, len(seq)):
         iMin = i
         for j in range(i+1, len(seq)):

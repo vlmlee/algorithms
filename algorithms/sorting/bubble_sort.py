@@ -1,7 +1,7 @@
 """
-    Bubble Sort Overview:
-    ---------------------
-    A naive sorting that compares and swaps adjacent elements
+    Bubble Sort
+    -----------
+    A naive sorting that compares and swaps adjacent elements.
 
     Time Complexity: O(n**2)
 
@@ -16,8 +16,11 @@
 
 def sort(seq):
     """
-    Test Doc String
+    Takes a list of integers and sorts them in ascending order. This sorted
+    list is then returned.
 
+    :param seq: A list of integers
+    :rtype: A list of sorted integers
     """
     L = len(seq)
     for _ in range(L):
