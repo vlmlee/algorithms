@@ -6,3 +6,4 @@ Algorithms
    
    sorting
    shuffling
+   random
