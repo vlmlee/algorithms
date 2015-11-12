@@ -4,7 +4,8 @@ Algorithms
 .. toctree::
    :maxdepth: 2
    
+   math
    searching
-   sorting
    shuffling
+   sorting
    random
