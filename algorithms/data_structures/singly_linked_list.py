@@ -52,12 +52,12 @@ class SinglyLinkedList:
                 self.size -= 1
             else:
                 previous = current
-                current = current.next
+                current = current.getNext()
 
         if previous is None:  # Head node
-            self.head = current.next
+            self.head = current.getNext()
         else:  # None head node
-            previous.setNext(current.next)
+            previous.setNext(current.getNext())
 
         return found
 
@@ -69,7 +69,7 @@ class SinglyLinkedList:
             if current.getData() == value:
                 found = True
             else:
-                current = current.next
+                current = current.getNext()
 
         return found
 
